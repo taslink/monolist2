@@ -74,7 +74,6 @@ class User < ActiveRecord::Base
   end
 
 
-
   # itemをwantする
   def want(item)
     wants.create(item_id: item.id)    
