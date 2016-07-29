@@ -9,6 +9,7 @@ class ItemsController < ApplicationController
         imageFlag: 1,
       )
       @items = response.first(20)
+    else
     end
   end
 
